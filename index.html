@@ -22,28 +22,28 @@
                                 <input type="text" class="form-control shadow-sm" name="" id="" v-model="input">
                             </div>
                             <div class="row mt-3 text-center px-3 d-flex justify-content-center align-items-center">
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('9')">9</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('8')">8</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('7')">7</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="operation('+')">+</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('9')">9</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('8')">8</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('7')">7</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="operation('+')">+</button>
                             </div>
                             <div class="row mt-3 text-center px-3 d-flex justify-content-center align-items-center">
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('6')">6</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('5')">5</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('4')">4</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="operation('-')">-</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('6')">6</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('5')">5</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('4')">4</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="operation('-')">-</button>
                             </div>
                             <div class="row mt-3 text-center px-3 d-flex justify-content-center align-items-center">
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('3')">3</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('2')">2</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('1')">1</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="operation('*')">*</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('3')">3</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('2')">2</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('1')">1</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="operation('*')">*</button>
                             </div>
                             <div class="row mt-3 text-center px-3 d-flex justify-content-center align-items-center">
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="getValue('0')">0</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="calculateResult()">=</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold text-danger bg-white" style="font-size: 10px; padding: 10px 0;" @click="deleteLast()">Delete</button>
-                                <button class="btn col-2 mx-3 px-4 border shadow-sm rounded fw-bold bg-white" @click="operation('/')">/</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="getValue('0')">0</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="calculateResult()">=</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold text-danger bg-white" style="font-size: 10px; padding: 10px 0;" @click="deleteLast()">Delete</button>
+                                <button class="btn col-3 border shadow-sm rounded fw-bold bg-white" @click="operation('/')">/</button>
                             </div>
                             <div class="row mt-3 text-center px-3">
                                 <button class="btn col-12 border-success shadow-sm text-success fw-bold bg-white" @click="clearInput()">Clear</button>
